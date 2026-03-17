@@ -17,6 +17,8 @@ public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ChanceGamesMod.MOD_ID);
 
+
+
     public static final RegistryObject<Block> SLOT_MACHINE = registerBlock("slot_machine",
             SlotMachineBlock::new);
 
